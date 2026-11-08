@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="56" viewBox="0 0 196 56">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3FC266"/>
+      <stop offset="1" stop-color="#1F883D"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#2EA44F" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect x="6" y="4" width="184" height="42" rx="21" fill="url(#g)" filter="url(#s)"/>
+  <rect x="6" y="4" width="184" height="21" rx="21" fill="#fff" opacity="0.10"/>
+  <circle cx="34" cy="25" r="6" fill="#fff" opacity="0.5">
+    <animate attributeName="r" values="6;11;6" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="34" cy="25" r="6" fill="#fff"/>
+  <text x="50" y="31" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">Open to work</text>
+</svg>
